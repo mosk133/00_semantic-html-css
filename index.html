@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,25 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
 </head>
+
 <body>
-    <header>
-        <h1>My Notes Application</h1>
+    <header class="header__wrapper">
+        <h1 class="header__title">My Notes Application</h1>
     </header>
-
-    <main id="container">
-        <section class="container1">
-            <h2>Create a New Note</h2>
-            <label for="title">Title:</label>
-            <input type="text" id="title" placeholder="Enter note title">
-            <label for="content">Content:</label>
-            <textarea type="text" id="content" placeholder="Enter note content"></textarea>
-            <button type="submit">Add Note</button>
-
+    
+    <main class="main__wrapper">
+        <section class="form__wrapper">
+            <form>
+                <h2 class="form__title">Create a New Note</h2>
+                <label for="note_title">Title:</label>
+                <input type="text" id="note_title" placeholder="Enter note title">
+                <label for="note_content">Content:</label>
+                <textarea type="text" id="note_content" placeholder="Enter note content"></textarea>
+                <button class="form__button" type="submit">Add Note</button>
+            </form>
         </section>
-
-        <section class="container2">
-            <h2>Resources</h2>
+        <section class="resources__wrapper">
+            <h2 class="resources__title">Resources</h2>
             <ul>
                 <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
                 <li><a href="https://css-tricks.com" target="_blank">css-tricks</a></li>
@@ -36,5 +38,6 @@
     <footer>
         <p>&copy; 2024 My Notes Application</p>
     </footer>
+
 </body>
 </html>

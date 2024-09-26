@@ -2,20 +2,21 @@ body{
     background: #F0F4F8;
     font-family: Arial, sans-serif;
 }
-header{
+
+.header__wrapper{
     background-color: #4a90e2;
     width: 100%;
     text-align: center;
     padding: 32px;
 }
 
-header > h1{
+.header__title{
     font-weight: bold;
     color: white;
     font-size: 26px;
 }
 
-#container{
+.main__wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,29 +24,28 @@ header > h1{
     gap: 20px;
 }
 
-.container1{
+.form__wrapper{
     width: 46%;
-    /* height: 50%; */
     padding: 16px;
     background-color: white;
     margin-right: 12px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-.container1 > h2{
+.form__title{
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 20px;
 }
 
-.container1 label{
+.form__wrapper label{
     margin-bottom: 9px;
     display: block;
     font-size: 14px;
 }
 
-#title {
+#note_title {
     width: 100%;
     padding: 8px;
     font-size: 13px;
@@ -54,7 +54,7 @@ header > h1{
     border: 1px solid #CCCCCC;
 }
 
-#content {
+#note_content {
     width: 100%;
     padding: 8px;
     font-size: 13px;
@@ -66,7 +66,7 @@ header > h1{
     border: 1px solid #CCCCCC;
 }
 
-button {
+.form__button {
     background-color: #FF5723;
     color: white;
     padding: 8px;
@@ -77,7 +77,7 @@ button {
     font-size: 13px;
 }
 
-.container2{
+.resources__wrapper{
     width: 25%;
     height: 311px;
     padding: 16px;
@@ -85,14 +85,14 @@ button {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-.container2 > h2{
+.resources__title{
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 22px;
     font-size: 20px;
 }
 
-.container2 > ul > li > a {
+.resources__wrapper ul li a {
     color: #7649A2;
     text-decoration: none;
     font-size: 13px;
@@ -101,7 +101,6 @@ button {
     margin-bottom: 14px;
 }
 
-
 footer{
     background-color: #4a90e2;
     width: 100%;
@@ -109,7 +108,7 @@ footer{
     padding: 15px;
 }
 
-footer > p{
+footer p{
     color: white;
     text-align: center;
     padding-top: 8px;
